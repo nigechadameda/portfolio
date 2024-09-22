@@ -1,6 +1,6 @@
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-import * as THREE from 'three';
-import { EXRLoader } from 'three/examples/jsm/loaders/EXRLoader.js';  // Ensure EXRLoader is correctly imported
+import { GLTFLoader } from './three/addons/loaders/GLTFLoader.js';
+import * as THREE from './three';
+import { EXRLoader } from './three/examples/jsm/loaders/EXRLoader.js';  // Ensure EXRLoader is correctly imported
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
