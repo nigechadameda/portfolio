@@ -29,7 +29,7 @@ exrLoader.load('/forest.exr', function (texture) {
 
 // Load GLTF model
 const loader = new GLTFLoader();
-loader.load('defender.glb', function (gltf) {
+loader.load('untitled.glb', function (gltf) {
     scene.add(gltf.scene);
 }, undefined, function (error) {
     console.error(error);
