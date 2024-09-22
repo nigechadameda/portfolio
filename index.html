@@ -1,19 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script src="https://cdn.jsdelivr.net/npm/three@0.154.0/build/three.min.js"></script>
-	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Three.js Project</title>
+	<!-- Use the module version of Three.js -->
+	<script type="module" src="https://cdn.jsdelivr.net/npm/three@0.154.0/build/three.module.js"></script>
 </head>
 <style>
 	* {
 		margin: 0;
 		padding: 0;
 	}
+	body, html {
+		width: 100%;
+		height: 100%;
+	}
+	canvas {
+		display: block;
+	}
 </style>
 <body>
 	<script type="module" src="./main.js"></script>
 </body>
-
 </html>
