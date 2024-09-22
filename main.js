@@ -25,3 +25,16 @@ function animate() {
 }
 animate();
 
+window.addEventListener('resize', () => {
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+
+    // Update the camera's aspect ratio and projection matrix
+    camera.aspect = width / height;
+    camera.updateProjectionMatrix();
+
+    // Resize the renderer to match the new window size
+    renderer.setSize(width, height);
+});
+
+
