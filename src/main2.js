@@ -1,7 +1,7 @@
 import '../style.css'
 
 import * as THREE from '/libs/three.module.min.js';
-import { OrbitControls } from '/libs/three.module.min.js/examples/jsm/controls/OrbitControls';
+//import { OrbitControls } from '/libs/three.module.min.js/examples/jsm/controls/OrbitControls';
 
 
 const scene = new THREE.Scene();
@@ -16,7 +16,7 @@ const pointLight = new THREE.PointLight(0xffffff, 100);
 const ambientLight = new THREE.AmbientLight(0xffffff);
 const lightHelper = new THREE.PointLightHelper(pointLight);
 const gridHelper = new THREE.GridHelper(200, 50);
-const controls = new OrbitControls(camera, renderer.domElement);
+//const controls = new OrbitControls(camera, renderer.domElement);
 const underwaterTexture = new THREE.TextureLoader().load('./underwater.jpeg')
 const color1 = new THREE.Color( 0x002e56 );
 
