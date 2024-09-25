@@ -1,5 +1,3 @@
-import '../style.css'
-
 import * as THREE from '/libs/three.module.min.js';
 //import { OrbitControls } from '/libs/three.module.min.js/examples/jsm/controls/OrbitControls';
 
